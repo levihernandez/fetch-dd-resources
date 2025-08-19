@@ -22,3 +22,19 @@ python fetch-dd-resources.py SANDBOX "Monitors" base=../ site=us5
 # OR download multiple resources, example:
 python fetch-dd-resources.py SANDBOX "Dashboards,Monitors" base=../exports site=us5
 ```
+
+Resources available:
+
+```yaml
+Dashboards
+Monitors
+Notebooks
+On Call
+Restriction Policies
+Roles
+Tags
+Teams
+Users
+Slos
+Software Catalog
+```
