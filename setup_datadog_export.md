@@ -1,5 +1,6 @@
+# `setup_datadog_export` setup & execution
 ```bash
-# Setup the 
+# Generate the directory structure
 chmod +x setup_datadog_export.sh
 ./setup_datadog_export.sh               # creates DEV and PROD
 ./setup_datadog_export.sh site=us5 env='DEV STAGING'   # custom envs
